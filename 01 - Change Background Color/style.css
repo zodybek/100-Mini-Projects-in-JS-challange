@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+*:focus,*:hover{
+    outline:none;
+}
+
+body {
+    font-family: 'Asap', sans-serif;
+    background-color: pink;
+    text-align: center;
+}
+
+div {
+    position: relative;
+}
+button {
+    position: absolute;
+    top: 50%;
+    background-color: transparent;
+    border: solid 1px grey;
+    border-radius: 3px;
+    color: grey;
+    height: 3em;
+    width: 130px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: lightgrey;
+    color: white;
+}
