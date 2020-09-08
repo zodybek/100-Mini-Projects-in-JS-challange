@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+*:focus,*:hover{
+    outline:none;
+}
+body {
+    font-family: 'Asap', sans-serif;
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.wrapper {
+    text-align: center;
+    
+}
+button {
+    background-color: pink;
+    border: solid 2px purple;
+    border-radius: 5px;
+    color: purple;
+    height: 3em;
+    width: 130px;
+    transition: 0.3s;
+}
+button:hover {
+    background-color: lightpink;
+    color: white;
+}
+
+.podpis {
+    margin-top: 10px;
+}
