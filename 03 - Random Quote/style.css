@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+*:focus,*:hover{
+    outline:none;
+}
+body {
+    font-family: 'Asap', sans-serif;
+    background-color:#8080B3;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+.quoteWrapper {
+    position: absolute;
+    top: 30%;
+    text-align: center;
+    width: 70%;
+    background-color: #C6C0DF;
+    padding: 30px 30px 0 30px;
+    
+}
+.generate-btn {
+    background-color: #1A1A59;
+    border: solid 2px #09093B;
+    color: white;
+    height: 3em;
+    width: 130px;
+    transition: 0.3s;
+}
+.generate-btn:hover {
+    background-color: lightpink;
+    color: white;
+    color: #09093B
+}
+
+.author {
+    color:purple;
+    font-size: 1.5em;
+    text-align: right;
+}
