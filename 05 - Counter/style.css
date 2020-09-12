@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+*:focus,*:hover{
+    outline:none;
+}
+body {
+    font-family: 'Asap', sans-serif;
+    background-color:#F77777;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper {
+    text-align: center;
+    width: 70%;
+    height: 30%;
+    background-color: #571845;
+    padding: 20px;
+    border: solid 3px purple;
+}
+h1 {
+    font-size: 3em;
+    color: white;
+}
+.counter {
+    font-size: 5em;
+    color: grey;
+}
+button {
+    background-color: #C70039;
+    border: 2px #30122D solid;
+    border-radius: 5px;
+    color: white;
+    font-size: 1em;
+    width: 150px;
+    height: 50px;
+    margin: 20px;
+}
