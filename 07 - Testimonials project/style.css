@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    color: white;
+}
+*:focus,*:hover{
+    outline:none;
+}
+body {
+    font-family: 'Asap', sans-serif;
+    background: url("img/audi.jpg") no-repeat;
+    background-size: cover; 
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 100px;
+}
+
+.wrapper {
+    border: solid 2px white;
+    width: 50%;
+    text-align: center;
+    position: relative;
+    background-color:rgba(0, 0, 0, 0.8)
+}
+.photo {
+    background: url("img/person1.jpg") no-repeat;
+    background-size: cover; 
+    background-position: center;
+    width: 150px;
+    min-height: 150px;
+    border: solid 2px white;
+    border-radius: 500px;
+    margin: auto;
+    margin-top: -75px;
+}
+.name {
+    margin: 10px 0;
+    font-size: 2em;
+}
+.stars {
+    font-size: 3em;
+    margin-bottom: -15px;
+}
+.testimonials {
+    margin: 0 20px 20px 20px;
+}
+.button {
+    border: solid white 2px;
+    height: 40px;
+    width: 40px;
+    border-radius: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 45%;
+}
+.left {
+    background-image: url("img/arrow-left.png");
+    left: -50px;  
+}
+.right {
+    background-image: url("img/arrow-right.png");
+    right: -50px;
+   }    
