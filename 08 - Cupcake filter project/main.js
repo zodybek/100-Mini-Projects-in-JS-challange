@@ -6,10 +6,10 @@ const sweets = document.querySelectorAll(".sweets");
 
 const dupa = (e) => {    
     let searchFilter = e.target.value.toLowerCase();
-    console.log(searchFilter);
+    // console.log(searchFilter);
     let sweetsCaptionArray = [...sweetsCaption];
     sweetsCaptionArray = sweetsCaptionArray.filter(item => item.textContent.toLowerCase().includes(searchFilter));
-    console.log(sweetsCaptionArray);
+    // console.log(sweetsCaptionArray);
     allSweets.textContent = "";
     sweetsCaptionArray.forEach(sweet => allSweets.appendChild(sweet.parentElement));
    }
