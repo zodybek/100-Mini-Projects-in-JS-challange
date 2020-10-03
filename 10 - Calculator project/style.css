@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    color: black;
+    font-family: Nunito, sans-serif;
+}
+*:focus,*:hover{
+    outline:none;
+}
+h1 {
+    text-align: center;
+    padding: 30px 0;
+}
+.wrapper {
+    border: solid 1px grey;
+    margin: 0 auto;
+    width: 70%;
+    min-height: 500px;
+}
+input {
+    width: 100%;
+    background: darkgrey;
+    height: 80px;
+    font-size: 3em;
+}
+
+.buttons {
+    border: solid 1px grey;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    min-height: 500px;  
+}
+.buttons-item {
+    cursor: pointer;
+    border: solid 2px grey;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 3em;
+    background-color: #c4c8ca;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow;
+    transition-property: box-shadow;
+    box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.6), 0 0 1px rgba(0, 0, 0, 0);
+}
+.buttons-item:active {
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.6), 0 0 1px rgba(0, 0, 0, 0);
+}
+.plus {
+    grid-row: 2 / 4;
+    grid-column: 4 / 5;
+    height: 200px;
+    line-height: 200px;
+}
+.enter {
+    grid-row: 4 / 6;
+    grid-column: 4 / 5;
+    height: 200px;
+    line-height: 200px;
+    background-color: #2E882E;
+    color: white;
+
+}
+.zero {
+    grid-column: 1 / 3;
+}
+.cancel {
+    background-color: coral;
+    color: white;
+
+}
